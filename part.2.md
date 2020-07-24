@@ -60,5 +60,14 @@ API에 해당하는 부분들은 강조해서 보여줄 필요가 있다.
 
 ### Chapter 7. 모듈화 아키텍처를 사용하라
 
+처음부터 모듈성을 염두에 두고 프로젝트를 시작하는 것이 중요하다.
+
+개념:
+
+- 의존성 주입, 컴포넌트 주입
+- `System.getProperty`, XML 설정 파일, Annotation
+- Java Extension Mechanism
+- Lookup, Service Locator
+- 순환 의존성 해결, Facade Pattern
 
 
