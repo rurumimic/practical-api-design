@@ -1,4 +1,5 @@
 //package com.company.interitance;
+package .;
 
 public class Mixed {
   private int counter;
