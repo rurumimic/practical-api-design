@@ -1,4 +1,4 @@
-package com.company.composition;
+//package com.company.composition;
 
 public class NonMixed {
   private int counter;
