@@ -4,6 +4,8 @@
 //import com.company.inheritance.Mixed;
 //import com.company.inheritance.SubMixed;
 
+package .;
+
 import NonMixed;
 import Mixed;
 import SubMixed;
