@@ -1,7 +1,8 @@
-//package com.company.interitance;
+package com.company.inheritance;
 
 public class SubMixed extends Mixed {
-  private SubMixed() {
+
+  public SubMixed() {
     super();
   }
 

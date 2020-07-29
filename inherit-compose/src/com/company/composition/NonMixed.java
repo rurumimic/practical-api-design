@@ -1,4 +1,4 @@
-//package com.company.composition;
+package com.company.composition;
 
 public class NonMixed {
   private int counter;
@@ -12,7 +12,7 @@ public class NonMixed {
   // API를 생성하는 곳에서 호출한다.
   // @param impl API를 사용할 곳에서 구현한 인터페이스
   // @return 생성된 클래스를 반환한다.
-  public statis NonMixed create(Provider impl) {
+  public static NonMixed create(Provider impl) {
     NonMixed api = new NonMixed(impl);
     Callback callback = new Callback(api);
     impl.initialize(callback);
@@ -42,6 +42,6 @@ public class NonMixed {
     NonMixed api; // 상위 클래스를 가리킨다.
     Callback(NonMixed api) { this.api = api; } // 상위 클래스를 저장한다.
     // API 사용자의 인터페이스 구현체에서 호출할 수 있다.
-    public final void toBeCalledBySubclass() { api.counter++ }
+    public final void toBeCalledBySubclass() { api.counter++; }
   }
 }

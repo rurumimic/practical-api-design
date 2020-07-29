@@ -1,14 +1,8 @@
-//package com.company;
+package com.company;
 
-//import com.company.composition.NonMixed;
-//import com.company.inheritance.Mixed;
-//import com.company.inheritance.SubMixed;
-
-package .;
-
-import NonMixed;
-import Mixed;
-import SubMixed;
+import com.company.composition.NonMixed;
+import com.company.inheritance.Mixed;
+import com.company.inheritance.SubMixed;
 
 
 public class Main {
@@ -40,5 +34,7 @@ public class Main {
   public static void main(String[] args) {
     inherit();
     compose();
+
+    System.out.println("done");
   }
 }

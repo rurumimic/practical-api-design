@@ -1,17 +1,16 @@
-//package com.company.interitance;
-package .;
+package com.company.inheritance;
 
-public class Mixed {
+public abstract class Mixed {
   private int counter;
   private int sum;
-	
-  private Mixed() {
+
+  public Mixed() {
     super();
   }
 
   // 외부로 노출한 API 메서드
   public final int apiForClients() {
-    int subclass = impl.toBeImplementBySubclass();
+    int subclass = toBeImplementBySubclass();
 
     // 필요한 로직 구현
     sum += subclass;
