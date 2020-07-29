@@ -1,8 +1,13 @@
-package com.company;
+//package com.company;
 
-import com.company.composition.NonMixed;
-import com.company.inheritance.Mixed;
-import com.company.inheritance.SubMixed;
+//import com.company.composition.NonMixed;
+//import com.company.inheritance.Mixed;
+//import com.company.inheritance.SubMixed;
+
+import NonMixed;
+import Mixed;
+import SubMixed;
+
 
 public class Main {
   public static void inherit() {
